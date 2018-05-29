@@ -33,7 +33,7 @@ public class LoadDataActivity extends AppCompatActivity {
     public static final String LOG_TAG = LoadDataActivity.class.getSimpleName();
 
     private static final String POKE_REQUEST_URL =
-            "http://api.pokemontcg.io/v1/cards?setCode=base1|base2|base3|base5|gym1|gym2&pageSize=1000";
+            "https://api.pokemontcg.io/v1/cards?setCode=base1|base2|base3|base5|gym1|gym2&pageSize=1000";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
